@@ -1,13 +1,12 @@
 package model.entities;
 
-public abstract class Product implements Comparable<Product> {
+public class Product implements Comparable<Product> {
 	
 	private String name;
 	private Double price;
 	
-	public Product() {
-		
-	}
+//	public Product() {		
+//	}
 	
 	public Product(String name, Double price) {
 		this.name = name;
